@@ -12,12 +12,9 @@ index.html                 Main page (hero, work, about, skills, experience,
 work/
   yume.html                01 — Yume Cloud   (full case study)
   ordio.html               02 — Ordio        (full case study, 0→1 ecosystem)
-  koz-ai.html              03 — KOZ AI
-  smart-gardener.html      04 — Smart Gardener
-  qomics.html              05 — Qomics
-  womens-diary.html        06 — Women's Diary (research layout)
-  capital-journal.html     07 — Capital Journal (before/after)
-  abai-online.html         08 — Abai Online
+  smart-gardener.html      03 — Smart Gardener
+  qomics.html              04 — Qomics
+  womens-diary.html        05 — Women's Diary (research layout)
 assets/
   css/styles.css           Design system (tokens, components, responsive)
   js/main.js               Language toggle, sticky nav, reveal, scroll progress

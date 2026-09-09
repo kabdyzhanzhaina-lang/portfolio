@@ -268,51 +268,6 @@ body.menu-open .mobile-menu { transform: translateY(0); visibility: visible; }
 
 .hero-cta { margin-top: 36px; display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
 
-/* Hero visual — mini product UI mockup (not stock) */
-.hero-visual {
-  grid-column: 1 / 13; margin-top: clamp(40px, 6vw, 72px);
-  position: relative;
-}
-.mock {
-  border: 1px solid var(--line); border-radius: var(--radius-lg);
-  background: var(--bg-elev); box-shadow: var(--shadow-lg); overflow: hidden;
-  position: relative;
-}
-.mock-bar { display: flex; align-items: center; gap: 8px; padding: 14px 18px; border-bottom: 1px solid var(--line); }
-.mock-bar .d { width: 11px; height: 11px; border-radius: 50%; background: var(--line-strong); }
-.mock-bar .addr { margin-left: 12px; flex: 1; height: 26px; border-radius: 8px; background: var(--bg); border: 1px solid var(--line); display: flex; align-items: center; padding: 0 12px; font-size: 12px; color: var(--ink-3); }
-.mock-body { display: grid; grid-template-columns: 210px 1fr; min-height: 340px; }
-.mock-side { border-right: 1px solid var(--line); padding: 20px 16px; display: flex; flex-direction: column; gap: 6px; background: color-mix(in srgb, var(--bg) 40%, var(--bg-elev)); }
-.mock-side .s-item { display: flex; align-items: center; gap: 10px; padding: 9px 11px; border-radius: 9px; font-size: 13.5px; color: var(--ink-2); }
-.mock-side .s-item .ic { width: 15px; height: 15px; border-radius: 4px; border: 1.5px solid var(--ink-3); opacity: .7; }
-.mock-side .s-item.active { background: var(--accent); color: #fff; }
-.mock-side .s-item.active .ic { border-color: #fff; background: rgba(255,255,255,.25); }
-.mock-main { padding: 24px; display: flex; flex-direction: column; gap: 18px; }
-.mock-kpis { display: grid; grid-template-columns: repeat(3,1fr); gap: 14px; }
-.mock-kpi { border: 1px solid var(--line); border-radius: 12px; padding: 14px; background: var(--panel); }
-.mock-kpi .k { font-size: 11px; color: var(--ink-3); letter-spacing: .04em; text-transform: uppercase; }
-.mock-kpi .v { font-size: 26px; font-weight: 600; letter-spacing: -0.02em; margin-top: 6px; }
-.mock-kpi .v.acc { color: var(--accent); }
-.mock-chart { border: 1px solid var(--line); border-radius: 12px; padding: 18px; background: var(--panel); flex: 1; display: flex; align-items: flex-end; gap: 10px; min-height: 120px; }
-.mock-chart .bar { flex: 1; background: var(--accent-soft); border-radius: 6px 6px 0 0; position: relative; }
-.mock-chart .bar::after { content:""; position:absolute; inset:auto 0 0 0; height: 38%; background: var(--accent); border-radius: 6px 6px 0 0; }
-.mock-chart .bar:nth-child(2)::after{height:60%}
-.mock-chart .bar:nth-child(3)::after{height:48%}
-.mock-chart .bar:nth-child(4)::after{height:82%}
-.mock-chart .bar:nth-child(5)::after{height:66%}
-.mock-chart .bar:nth-child(6)::after{height:94%}
-.mock-chart .bar:nth-child(7)::after{height:72%}
-/* floating mini mobile card */
-.mock-phone {
-  position: absolute; right: clamp(-6px, 1vw, 24px); bottom: -26px; width: clamp(140px, 17vw, 190px);
-  border: 1px solid var(--line); border-radius: 22px; background: var(--bg-elev);
-  box-shadow: var(--shadow-lg); padding: 14px; display: flex; flex-direction: column; gap: 10px;
-}
-.mock-phone .ph-title { font-size: 12px; color: var(--ink-3); }
-.mock-phone .ph-row { display: flex; justify-content: space-between; align-items: center; padding: 10px 12px; border: 1px solid var(--line); border-radius: 12px; font-size: 12.5px; }
-.mock-phone .ph-row .st { width: 8px; height: 8px; border-radius: 50%; background: #16a34a; }
-.mock-phone .ph-row.warn .st { background: #f59e0b; }
-@media (max-width: 640px){ .mock-body{ grid-template-columns: 1fr; } .mock-side{ display: none; } .mock-phone{ display: none; } }
 
 /* =========================================================
    MARQUEE / capability strip
