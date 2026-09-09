@@ -16,3 +16,6 @@ Icon
 node_modules/
 .cache/
 tmp/
+
+# Claude local
+.claude/
